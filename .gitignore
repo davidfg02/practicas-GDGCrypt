@@ -1,0 +1,82 @@
+# ==========================================
+# CONFIGURACIÓN Y CREDENCIALES
+# ==========================================
+
+# Variables de entorno
+.env
+.env.*
+!.env.example
+
+# Certificados y claves
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# ==========================================
+# BASES DE DATOS Y DATOS REALES
+# ==========================================
+
+# Dumps SQL
+*.sql
+*.sql.gz
+*.dump
+
+# Carpeta de dumps del proyecto
+Dump*/
+**/Dump*/
+
+# Datos locales
+data/
+datos/
+database/
+backups/
+backup/
+
+# ==========================================
+# LOGS
+# ==========================================
+
+*.log
+logs/
+**/logs/
+
+# ==========================================
+# ARCHIVOS TEMPORALES
+# ==========================================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# ==========================================
+# SISTEMA OPERATIVO
+# ==========================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# IDE / EDITORES
+# ==========================================
+
+.vscode/
+.idea/
+*.iml
+
+# ==========================================
+# PHP / SERVIDOR LOCAL
+# ==========================================
+
+vendor/
+node_modules/
+
+# Archivos generados
+cache/
+tmp/
+temp/
